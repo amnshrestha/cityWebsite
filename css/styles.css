@@ -6,6 +6,8 @@
 
 body{
     background:#14191D;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -49,7 +51,9 @@ a{
     text-align: center;
     margin: 0 auto;
     line-height: 40px;
-    padding: 1px
+    padding: 1px;
+    line-height: 2em;
+    background-color: rgba(0,0,0,0.4);
 }
 
 .cards{
@@ -86,6 +90,7 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     font-size: 80px;
+    font-family: 'New Tegomin', serif;
 }
 
 .cardContent{
