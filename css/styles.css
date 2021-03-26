@@ -31,11 +31,10 @@ a{
     background-image: url('../assets/background.jpg');
     position: absolute;
     z-index: 100;
-
 }
 
 
-.center {
+.center {    
     margin: 0 auto;
     margin-top: 2%;
     width: 80%;
@@ -50,6 +49,7 @@ a{
     text-align: center;
     margin: 0 auto;
     line-height: 40px;
+    padding: 1px
 }
 
 .cards{
@@ -57,18 +57,17 @@ a{
     width: 80%;
     padding: 10px;
     color: white;
-    text-align: center;
-   
+    text-align: center;   
 }
 
 .eachCard{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     color: white;
-    width: 40%;
-    height: 80px;
+    width: 30%;
+    height: 60px;
     border-radius: 5px;
     display: inline-block;
-    margin-top: 2%;
+    margin-top: 1%;
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
 }
@@ -78,6 +77,8 @@ a{
     /* background-color: rgba(70, 70, 70, 0.8); */
     background-image: url('../assets/buttonbgEdited.png');
     opacity: 0.5;
+    color: yellow;
+    font-weight: bold;
 }
 
 .title{
